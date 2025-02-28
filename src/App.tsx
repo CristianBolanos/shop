@@ -49,6 +49,7 @@ function App() {
   return (
     <Router>
       <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <Home/>
         <Navbar />
         <MainContent />
         <Footer />
